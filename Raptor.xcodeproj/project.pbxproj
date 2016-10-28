@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		85375B881DC0F0EF00E1A432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85375B871DC0F0EF00E1A432 /* AppDelegate.swift */; };
-		85375B8A1DC0F0EF00E1A432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85375B891DC0F0EF00E1A432 /* ViewController.swift */; };
+		85375B8A1DC0F0EF00E1A432 /* PairViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85375B891DC0F0EF00E1A432 /* PairViewController.swift */; };
 		85375B8D1DC0F0EF00E1A432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85375B8B1DC0F0EF00E1A432 /* Main.storyboard */; };
 		85375B8F1DC0F0EF00E1A432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85375B8E1DC0F0EF00E1A432 /* Assets.xcassets */; };
 		85375B921DC0F0EF00E1A432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85375B901DC0F0EF00E1A432 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		85375B841DC0F0EF00E1A432 /* Raptor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raptor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85375B871DC0F0EF00E1A432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85375B891DC0F0EF00E1A432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85375B891DC0F0EF00E1A432 /* PairViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairViewController.swift; sourceTree = "<group>"; };
 		85375B8C1DC0F0EF00E1A432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85375B8E1DC0F0EF00E1A432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85375B911DC0F0EF00E1A432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				85375B871DC0F0EF00E1A432 /* AppDelegate.swift */,
-				85375B891DC0F0EF00E1A432 /* ViewController.swift */,
+				85375B891DC0F0EF00E1A432 /* PairViewController.swift */,
 				85375B8B1DC0F0EF00E1A432 /* Main.storyboard */,
 				85375B8E1DC0F0EF00E1A432 /* Assets.xcassets */,
 				85375B901DC0F0EF00E1A432 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85375B8A1DC0F0EF00E1A432 /* ViewController.swift in Sources */,
+				85375B8A1DC0F0EF00E1A432 /* PairViewController.swift in Sources */,
 				85375B881DC0F0EF00E1A432 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +503,7 @@
 				85375BAE1DC0F0EF00E1A432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85375BAF1DC0F0EF00E1A432 /* Build configuration list for PBXNativeTarget "RaptorTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				85375BB11DC0F0EF00E1A432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85375BB21DC0F0EF00E1A432 /* Build configuration list for PBXNativeTarget "RaptorUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				85375BB41DC0F0EF00E1A432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
